@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunil Jangir Technical Services LLC</title>
+    <link rel="icon" href="logo.jpg" sizes="16x16" type="image/jpg">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <img src="logo.jpg" alt="SJ Logo" class="logo">
+            </div>
+            <div class="menu">
+                <div class="menu-icon">&#9776;</div>
+                <ul class="nav-list">
+                    <li><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
+                    <li><a href="about.html"><i class="fa fa-user"></i> ABOUT</a></li>
+                    <li><a href="service.html"><i class="fa fa-cogs"></i> SERVICES</a></li>
+                    <li><a href="contact.html"><i class="fa fa-envelope"></i> CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <h2>SUNIL JANGIR TECHNICAL SERVICE LLC</h2>
+            <p>WOODEN FABRICATION, EXHIBITION STANDS, WALL PARTITION, GLASS WORKS</p>
+        </div>
+    </div>
+
+    <section class="design">
+        <div class="design_section">
+            <div class="design_card">
+                <img src="wooden6.jpg" alt="">
+                <h2>Wooden Fabrication</h2>
+                <p>We specialize in designing and creating high-quality
+                exhibition stands that enhance brand....
+                </p>
+                <a href="wooden-fabrication.html">Read More</a>
+            </div>
+            <div class="design_card">
+                <img src="5.jpg" alt="">
+                <h2>Exhibition Stands</h2>
+                <p> With years of experience and a passion for craftsmanship,
+                 we take pride in delivering custom wooden....
+                </p>
+                <a href="exhibition-stands.html">Read More</a>
+            </div>
+            <div class="design_card">
+                <img src="wall5.jpg" alt="">
+                <h2>Wall Partition</h2>
+                <p>Our company excels in crafting innovative wall partition
+                 designs that merge functionality with aesthetics.....
+                </p>
+                <a href="wall-partition.html">Read More</a>
+            </div>
+            <div class="design_card">
+                <img src="glass6.jpg" alt="">
+                <h2>Glass Works</h2>
+                <p> With decades of expertise, our company has become a leader
+                     in delivering cutting-edge glass solutions....
+                </p>
+                <a href="glass-works.html">Read More</a>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sunil Jangir Technical Services LLC. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const menuIcon = document.querySelector('.menu-icon');
+        const navList = document.querySelector('.menu ul');
+
+        menuIcon.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
